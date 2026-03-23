@@ -66,16 +66,16 @@ export default function ProjectsSection() {
       <div className="text-center mb-16">
         <motion.h2 
           initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
+          animate={{ opacity: 1, y: 0 }}
+          
           className="text-4xl md:text-5xl font-bold text-gradient mb-4"
         >
           Featured Projects
         </motion.h2>
         <motion.p 
           initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
+          animate={{ opacity: 1, y: 0 }}
+          
           transition={{ delay: 0.1 }}
           className="text-[#94A3B8] text-lg max-w-2xl mx-auto"
         >
@@ -88,8 +88,8 @@ export default function ProjectsSection() {
           <motion.div
             key={project.id}
             initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+            animate={{ opacity: 1, y: 0 }}
+            
             transition={{ delay: idx * 0.1 }}
             className={`glass-card rounded-2xl flex flex-col h-full overflow-hidden ${
               project.featured 

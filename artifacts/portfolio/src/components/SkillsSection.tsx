@@ -34,16 +34,16 @@ export default function SkillsSection() {
       <div className="text-center mb-16">
         <motion.h2 
           initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
+          animate={{ opacity: 1, y: 0 }}
+          
           className="text-4xl md:text-5xl font-bold text-gradient mb-4"
         >
           Technical Arsenal
         </motion.h2>
         <motion.p 
           initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
+          animate={{ opacity: 1, y: 0 }}
+          
           transition={{ delay: 0.1 }}
           className="text-[#94A3B8] text-lg"
         >
@@ -97,8 +97,8 @@ export default function SkillsSection() {
 
       <motion.div 
         initial={{ opacity: 0, y: 20 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        viewport={{ once: true }}
+        animate={{ opacity: 1, y: 0 }}
+        
         className="glass-card bg-[#1E293B]/50 rounded-2xl p-8 border border-white/5"
       >
         <h3 className="text-2xl font-bold text-[#F8FAFC] mb-2">🚀 Currently Learning</h3>

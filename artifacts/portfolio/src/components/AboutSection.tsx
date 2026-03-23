@@ -23,8 +23,8 @@ export default function AboutSection() {
       
       <motion.div 
         initial={{ opacity: 0, y: 20 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        viewport={{ once: true }}
+        animate={{ opacity: 1, y: 0 }}
+        
         className="text-center mb-16"
       >
         <p className="text-lg md:text-xl text-gradient italic font-medium">
@@ -37,8 +37,8 @@ export default function AboutSection() {
         {/* Left Side - Avatar */}
         <motion.div 
           initial={{ opacity: 0, x: -30 }}
-          whileInView={{ opacity: 1, x: 0 }}
-          viewport={{ once: true }}
+          animate={{ opacity: 1, x: 0 }}
+          
           className="flex justify-center"
         >
           <div 
@@ -62,8 +62,8 @@ export default function AboutSection() {
         {/* Right Side - Text */}
         <motion.div 
           initial={{ opacity: 0, x: 30 }}
-          whileInView={{ opacity: 1, x: 0 }}
-          viewport={{ once: true }}
+          animate={{ opacity: 1, x: 0 }}
+          
           className="text-[#E2E8F0] space-y-6 text-base md:text-lg leading-relaxed"
         >
           <p>
@@ -85,8 +85,8 @@ export default function AboutSection() {
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
         <motion.div 
           initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
+          animate={{ opacity: 1, y: 0 }}
+          
           transition={{ delay: 0.1 }}
           className="glass-card rounded-2xl p-6"
         >
@@ -102,8 +102,8 @@ export default function AboutSection() {
 
         <motion.div 
           initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
+          animate={{ opacity: 1, y: 0 }}
+          
           transition={{ delay: 0.2 }}
           className="glass-card rounded-2xl p-6"
         >
@@ -119,8 +119,8 @@ export default function AboutSection() {
 
         <motion.div 
           initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
+          animate={{ opacity: 1, y: 0 }}
+          
           transition={{ delay: 0.3 }}
           className="glass-card rounded-2xl p-6"
         >

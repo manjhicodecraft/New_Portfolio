@@ -35,16 +35,16 @@ export default function HackathonSection() {
       <div className="text-center mb-16">
         <motion.h2 
           initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
+          animate={{ opacity: 1, y: 0 }}
+          
           className="text-4xl md:text-5xl font-bold text-gradient mb-4"
         >
           Hackathon Experience
         </motion.h2>
         <motion.p 
           initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
+          animate={{ opacity: 1, y: 0 }}
+          
           transition={{ delay: 0.1 }}
           className="text-[#94A3B8] text-lg max-w-2xl mx-auto"
         >
@@ -57,8 +57,7 @@ export default function HackathonSection() {
           <motion.div
             key={idx}
             initial={{ opacity: 0, scale: 0.95 }}
-            whileInView={{ opacity: 1, scale: 1 }}
-            viewport={{ once: true }}
+            animate={{ opacity: 1, scale: 1 }}
             transition={{ delay: idx * 0.1 }}
             className="glass-card rounded-2xl p-6 border-l-4 border-l-[#8B5CF6] hover:bg-white/[0.08] transition-colors"
           >

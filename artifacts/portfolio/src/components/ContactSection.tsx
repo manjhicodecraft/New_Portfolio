@@ -26,16 +26,16 @@ export default function ContactSection() {
       <div className="text-center mb-16">
         <motion.h2 
           initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
+          animate={{ opacity: 1, y: 0 }}
+          
           className="text-4xl md:text-5xl font-bold text-gradient mb-4"
         >
           Let's Connect
         </motion.h2>
         <motion.p 
           initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
+          animate={{ opacity: 1, y: 0 }}
+          
           transition={{ delay: 0.1 }}
           className="text-[#94A3B8] text-lg max-w-2xl mx-auto"
         >
@@ -48,8 +48,8 @@ export default function ContactSection() {
         {/* Email Card */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
+          animate={{ opacity: 1, y: 0 }}
+          
           className="glass-card rounded-2xl p-6 flex flex-col items-center justify-center text-center group cursor-pointer relative overflow-hidden"
           onClick={handleCopyEmail}
         >
@@ -69,8 +69,8 @@ export default function ContactSection() {
           target="_blank"
           rel="noopener noreferrer"
           initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
+          animate={{ opacity: 1, y: 0 }}
+          
           transition={{ delay: 0.1 }}
           className="glass-card rounded-2xl p-6 flex flex-col items-center justify-center text-center group hover:border-[#22D3EE]/50 transition-colors"
         >
@@ -85,8 +85,8 @@ export default function ContactSection() {
           target="_blank"
           rel="noopener noreferrer"
           initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
+          animate={{ opacity: 1, y: 0 }}
+          
           transition={{ delay: 0.2 }}
           className="glass-card rounded-2xl p-6 flex flex-col items-center justify-center text-center group hover:border-[#0077b5]/50 transition-colors"
         >
@@ -99,8 +99,8 @@ export default function ContactSection() {
       {/* Quick Message Card */}
       <motion.div
         initial={{ opacity: 0, y: 20 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        viewport={{ once: true }}
+        animate={{ opacity: 1, y: 0 }}
+        
         transition={{ delay: 0.3 }}
         className="glass-card rounded-2xl p-8 border border-[#8B5CF6]/30"
       >
