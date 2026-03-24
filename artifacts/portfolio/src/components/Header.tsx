@@ -44,7 +44,7 @@ export default function Header() {
           onClick={(e) => { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }); }}
           className="flex items-center gap-3 cursor-pointer"
         >
-          <img src="/logo.png" alt="Logo" className="h-10 w-auto object-contain" />
+          <img src="/logo.svg" alt="Kajal Manjhi logo" className="h-10 w-auto object-contain" />
         </a>
 
         {/* Desktop Nav */}

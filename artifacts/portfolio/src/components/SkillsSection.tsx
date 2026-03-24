@@ -29,7 +29,7 @@ export default function SkillsSection() {
   };
 
   return (
-    <section id="skills" className="py-24 px-6 md:px-12 max-w-5xl mx-auto relative z-10">
+    <section id="skills" className="pt-16 pb-24 px-6 md:px-12 max-w-5xl mx-auto relative z-10">
       
       <div className="text-center mb-16">
         <motion.h2 

@@ -1,0 +1,35 @@
+<svg width="240" height="80" viewBox="0 0 240 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="10" y1="6" x2="74" y2="74" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B1226"/>
+      <stop offset="1" stop-color="#111C3A"/>
+    </linearGradient>
+    <linearGradient id="strokeGrad" x1="6" y1="6" x2="74" y2="74" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22D3EE"/>
+      <stop offset="1" stop-color="#38BDF8"/>
+    </linearGradient>
+    <linearGradient id="kGrad" x1="18" y1="18" x2="50" y2="58" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E2E8F0"/>
+      <stop offset="1" stop-color="#93C5FD"/>
+    </linearGradient>
+    <linearGradient id="mGrad" x1="44" y1="20" x2="72" y2="60" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22D3EE"/>
+      <stop offset="1" stop-color="#0EA5E9"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="2" y="2" width="76" height="76" rx="18" fill="url(#bgGrad)"/>
+  <rect x="2" y="2" width="76" height="76" rx="18" stroke="url(#strokeGrad)" stroke-width="3"/>
+
+  <!-- Stylish KM monogram -->
+  <path d="M19 58V22H26V39L42 22H52L35 40L53 58H43L30 45L26 49V58H19Z" fill="url(#kGrad)"/>
+  <path d="M45 58V22H52L60 36L68 22H75V58H68V36L60 49L52 36V58H45Z" fill="url(#mGrad)"/>
+  <path d="M18 63C28 67 50 67 62 63" stroke="#22D3EE" stroke-opacity="0.55" stroke-width="2.2" stroke-linecap="round"/>
+
+  <text x="92" y="35" fill="#E2E8F0" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="600" letter-spacing="1.2">
+    KAJAL MANJHI
+  </text>
+  <text x="92" y="56" fill="#22D3EE" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="500" letter-spacing="1">
+    BACKEND DEVELOPER
+  </text>
+</svg>

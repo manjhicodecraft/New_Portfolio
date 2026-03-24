@@ -19,7 +19,7 @@ export default function AboutSection() {
   }, [isHovering]);
 
   return (
-    <section id="about" className="py-24 px-6 md:px-12 max-w-7xl mx-auto relative z-10">
+    <section id="about" className="pt-16 pb-24 px-6 md:px-12 max-w-7xl mx-auto relative z-10">
       
       <motion.div 
         initial={{ opacity: 0, y: 20 }}

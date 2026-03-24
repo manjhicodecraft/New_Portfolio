@@ -30,7 +30,7 @@ export default function HackathonSection() {
   ];
 
   return (
-    <section id="hackathon" className="py-24 px-6 md:px-12 max-w-6xl mx-auto relative z-10">
+    <section id="hackathon" className="pt-16 pb-24 px-6 md:px-12 max-w-6xl mx-auto relative z-10">
       
       <div className="text-center mb-16">
         <motion.h2 
