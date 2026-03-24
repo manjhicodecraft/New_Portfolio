@@ -1,12 +1,12 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 
-type Tab = "Languages" | "Frontend" | "Tools";
+type Tab = "Languages" | "Cybersecurity" | "Tools";
 
 export default function SkillsSection() {
   const [activeTab, setActiveTab] = useState<Tab>("Languages");
 
-  const tabs: Tab[] = ["Languages", "Frontend", "Tools"];
+  const tabs: Tab[] = ["Languages", "Cybersecurity", "Tools"];
 
   const skillsData = {
     Languages: [
@@ -15,10 +15,10 @@ export default function SkillsSection() {
       { name: "Java", icon: "☕", progress: 75 },
       { name: "Python", icon: "🐍", progress: 65 },
     ],
-    Frontend: [
-      { name: "HTML/CSS", icon: "🌐", progress: 80 },
-      { name: "JavaScript", icon: "📜", progress: 70 },
-      { name: "React (learning)", icon: "⚛️", progress: 50 },
+    Cybersecurity: [
+      { name: "Network Security", icon: "🛡️", progress: 70 },
+      { name: "Ethical Hacking", icon: "💻", progress: 60 },
+      { name: "Cryptography", icon: "🔒", progress: 55 },
     ],
     Tools: [
       { name: "VS Code", icon: "💻", progress: 90 },

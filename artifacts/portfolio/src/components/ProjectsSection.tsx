@@ -11,7 +11,8 @@ export default function ProjectsSection() {
       featured: true,
       description: "A sophisticated voice recognition system that processes audio input, interprets intent, and executes commands. Built with advanced audio processing and machine learning algorithms.",
       features: "Real-time Voice Processing, Natural Language Understanding, Task Automation",
-      tags: ["Python", "AI/ML", "Voice Processing", "NLP"]
+      tags: ["Python", "AI/ML", "Voice Processing", "NLP"],
+      url: "https://github.com/manjhicodecraft/Vani-Ai.git"
     },
     {
       id: 2,
@@ -20,7 +21,8 @@ export default function ProjectsSection() {
       featured: false,
       description: "AI Secure Digital Identity Verifier is a privacy-focused platform that uses AI and Machine Learning to securely verify digital identity documents and prevent fraud.",
       features: "Secure & privacy-preserving verification, AI-based identity validation, Fast and automated processing, Fraud detection and prevention",
-      tags: ["Python", "AI/ML", "Security"]
+      tags: ["Python", "AI/ML", "Security"],
+      url: "https://github.com/manjhicodecraft/ai-secure-identity-verifier.git"
     },
     {
       id: 3,
@@ -29,7 +31,8 @@ export default function ProjectsSection() {
       featured: false,
       description: "A Python-based machine learning project that detects AI-generated or deepfake content across images, videos, and audio using advanced pattern analysis.",
       features: "Image analysis for face artifacts, Video detection with frame & temporal analysis, Audio analysis using spectral patterns, Multi-modal ML-based detection",
-      tags: ["Python", "ML", "Computer Vision"]
+      tags: ["Python", "ML", "Computer Vision"],
+      url: "https://github.com/manjhicodecraft/Deepfake-Detection.git"
     },
     {
       id: 4,
@@ -38,7 +41,8 @@ export default function ProjectsSection() {
       featured: false,
       description: "AI-powered surveillance system using computer vision to monitor campus activities in real time.",
       features: "Real-time CCTV monitoring, Unauthorized access detection, Suspicious activity identification, People counting, AI computer vision",
-      tags: ["Python", "Computer Vision", "AI"]
+      tags: ["Python", "Computer Vision", "AI"],
+      url: "https://github.com/manjhicodecraft/Netra.git"
     },
     {
       id: 5,
@@ -47,7 +51,8 @@ export default function ProjectsSection() {
       featured: false,
       description: "AI-powered platform that helps users build consistent habits and improve productivity through smart tracking and insights.",
       features: "Habit and task tracking, AI-driven insights and motivation, Progress analytics, Daily routine management, Smart productivity enhancement",
-      tags: ["Python", "AI", "Productivity"]
+      tags: ["Python", "AI", "Productivity"],
+      url: "https://github.com/manjhicodecraft/Smart-AI-Habit-Tracker.git"
     },
     {
       id: 6,
@@ -56,7 +61,8 @@ export default function ProjectsSection() {
       featured: false,
       description: "A personal expense tracker for managing and monitoring expenses across multiple accounts efficiently.",
       features: "Multi-account management, Expense tracking and categorization, Spending insights and analysis, Transaction history tracking",
-      tags: ["Python", "Finance", "Tracking"]
+      tags: ["Python", "Finance", "Tracking"],
+      url: "https://github.com/manjhicodecraft/minor-project-submit.git"
     }
   ];
 
@@ -128,13 +134,19 @@ export default function ProjectsSection() {
                 ))}
               </div>
               
-              <Button 
-                variant="outline" 
-                className="w-full mt-auto border-[#8B5CF6]/50 text-[#E2E8F0] hover:bg-[#8B5CF6] hover:text-white transition-all gap-2"
-                onClick={(e) => e.preventDefault()}
+              <a
+                href={project.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-full mt-auto"
               >
-                <Code2 size={16} /> View Code
-              </Button>
+                <Button
+                  variant="outline"
+                  className="w-full border-[#8B5CF6]/50 text-[#E2E8F0] hover:bg-[#8B5CF6] hover:text-white transition-all gap-2"
+                >
+                  <Code2 size={16} /> View Code
+                </Button>
+              </a>
             </div>
           </motion.div>
         ))}
