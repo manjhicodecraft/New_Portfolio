@@ -6,7 +6,7 @@ export default function ProjectsSection() {
   const projects = [
     {
       id: 1,
-      title: "Vani AI | FEATURED PROJECT",
+      title: "Vani AI",
       icon: "🎙️",
       featured: true,
       description: "A sophisticated voice recognition system that processes audio input, interprets intent, and executes commands. Built with advanced audio processing and machine learning algorithms.",
@@ -41,7 +41,7 @@ export default function ProjectsSection() {
       featured: false,
       description: "AI-powered surveillance system using computer vision to monitor campus activities in real time.",
       features: "Real-time CCTV monitoring, Unauthorized access detection, Suspicious activity identification, People counting, AI computer vision",
-      tags: ["Python", "Computer Vision", "AI"],
+      tags: ["Java", "Computer Vision", "AI"],
       url: "https://github.com/manjhicodecraft/Netra.git"
     },
     {
@@ -51,7 +51,7 @@ export default function ProjectsSection() {
       featured: false,
       description: "AI-powered platform that helps users build consistent habits and improve productivity through smart tracking and insights.",
       features: "Habit and task tracking, AI-driven insights and motivation, Progress analytics, Daily routine management, Smart productivity enhancement",
-      tags: ["Python", "AI", "Productivity"],
+      tags: ["Java", "AI", "Productivity"],
       url: "https://github.com/manjhicodecraft/Smart-AI-Habit-Tracker.git"
     },
     {
@@ -61,7 +61,7 @@ export default function ProjectsSection() {
       featured: false,
       description: "A personal expense tracker for managing and monitoring expenses across multiple accounts efficiently.",
       features: "Multi-account management, Expense tracking and categorization, Spending insights and analysis, Transaction history tracking",
-      tags: ["Python", "Finance", "Tracking"],
+      tags: ["Java", "Finance", "Tracking"],
       url: "https://github.com/manjhicodecraft/minor-project-submit.git"
     }
   ];
