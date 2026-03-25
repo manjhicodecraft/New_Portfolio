@@ -4,7 +4,11 @@ import { motion } from "framer-motion";
 export default function AboutSection() {
   const [photoIndex, setPhotoIndex] = useState(0);
   const [isHovering, setIsHovering] = useState(false);
-  const photos = ["/photo1.jpg", "/photo2.jpg", "/photo3.jpg"];
+  const photos = [
+    { src: "/about1.png", objectPosition: "50% 35%" },
+    { src: "/about2.png", objectPosition: "50% 35%" },
+    { src: "/about3.png", objectPosition: "50% 35%" },
+  ];
 
   useEffect(() => {
     let interval: ReturnType<typeof setInterval>;
@@ -51,9 +55,10 @@ export default function AboutSection() {
           >
             <div className="w-full h-full rounded-full overflow-hidden bg-[#0F172A]">
               <img 
-                src={photos[photoIndex]} 
+                src={photos[photoIndex].src}
                 alt="Kajal Manjhi" 
                 className="w-full h-full object-cover transition-opacity duration-300"
+                style={{ objectPosition: photos[photoIndex].objectPosition }}
               />
             </div>
           </div>
